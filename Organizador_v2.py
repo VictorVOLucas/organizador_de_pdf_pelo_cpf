@@ -70,6 +70,6 @@ def organize_and_save_pdf(input_pdf_path):
 
 # Exemplo de uso
 # Caminho do arquivo PDF de entrada
-input_pdf_path = 'INSIRA AQUI O NOME DO PDF'
+input_pdf_path = 'INSIRA AQUI O CAMINHO DO PDF'
 # Organiza e salva o PDF
 organize_and_save_pdf(input_pdf_path)
