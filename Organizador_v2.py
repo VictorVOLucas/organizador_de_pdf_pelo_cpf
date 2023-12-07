@@ -8,7 +8,8 @@ def extract_cpf(text):
     # Encontra todas as correspondências no texto
     matches = cpf_pattern.findall(text)
     return matches
-
+    
+# INSIRA NESSA FUNÇÃO ABAIXO O NOME DO CABEÇALHO DO SEU PDF PARA PODER SEPARAR
 def identify_header(page):
     # Extrai o texto da página e converte para minúsculas
     text = page.extract_text().lower()
